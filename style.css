@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    grid-area: header;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #162b15;
+    color: rgb(194, 69, 69);
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-rows: 150px 350px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    ". name ."
+    "weapon skin auxweapon";
+}
+
+.name {
+    grid-area: name;
+    background-color: #f9f9f9;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#charname {
+    width: 500px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.weapon {
+    grid-area: weapon;
+    background-color: #f9f9f9;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.weapon h2 {
+    margin-right: 60px;
+}
+
+.weapon-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.previousweaponBtn {
+    width: 25px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.weaponImg {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    align-content: center;
+}
+
+.nextweaponBtn {
+    width: 25px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.skin {
+    grid-area: skin;
+    background-color: #f9f9f9;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.skin-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.previousskinBtn {
+    width: 25px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.skinImg {
+    grid-area: skinImg;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.nextskinBtn {
+    width: 25px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.auxweapon {
+    grid-area: auxweapon;
+    background-color: #f9f9f9;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.auxweapon-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.previousauxweaponBtn {
+    width: 25px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.auxweaponImg {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    align-content: center;
+}
+
+.nextauxweaponBtn {
+    width: 25px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.playBtn {
+    display: block;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
