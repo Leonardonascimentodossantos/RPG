@@ -1,12 +1,12 @@
 const weapon = document.querySelector('.weaponImg');
-const previousweaponBtn = document.querySelector('.previousweaponBtn');
-const nextweaponBtn = document.querySelector('.nextweaponBtn');
+const previousweaponBtn = document.querySelector('#previousweaponBtn');
+const nextweaponBtn = document.querySelector('#nextweaponBtn');
 const skin = document.querySelector('.skinImg');
-const previousskinBtn = document.querySelector('.previousskinBtn');
-const nextskinBtn = document.querySelector('.nextskinBtn');
+const previousskinBtn = document.querySelector('#previousskinBtn');
+const nextskinBtn = document.querySelector('#nextskinBtn');
 const auxweapon = document.querySelector('.auxweaponImg');
-const previousauxweaponBtn = document.querySelector('.previousauxweaponBtn');
-const nextauxweaponBtn = document.querySelector('.nextauxweaponBtn');
+const previousauxweaponBtn = document.querySelector('#previousauxweaponBtn');
+const nextauxweaponBtn = document.querySelector('#nextauxweaponBtn');
 
 const weapons = [
     "Weapons/Alucard's_Sword_Icon.png",
@@ -15,9 +15,9 @@ const weapons = [
 ];
 
 const skins = [
-    "Skins/Alucard_Outfit.png",
-    "Skins/Maria_Renard_Outfit.png",
-    "Skins/Ninja_Outfit.png"
+    "Skins/Alucard_Outfit-removebg-preview.png",
+    "Skins/Maria_Renard_Outfit-removebg-preview.png",
+    "Skins/Ninja_Outfit-removebg-preview.png",
 ];
 
 const auxweapons = [

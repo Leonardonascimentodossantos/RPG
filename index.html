@@ -8,7 +8,9 @@
 </head>
 <body>
     <header>
-        <h1>MONTE SEU PERSONAGEM</h1>
+        <img class="headerImg" src="Arts/Deadone-removebg-preview.png" alt="">
+        <h1>MONTE <br> SEU <br> PERSONAGEM</h1>
+        <img class="headerImg" id="giant" src="Arts/The_Giant.webp" alt="">
     </header>
     <main>
         <div class="name">
@@ -18,31 +20,34 @@
         <div class="weapon">
             <h2>ARMA:</h2>
             <div class="weapon-content">
-                <button class="previousweaponBtn">&larr;</button>
+                <button class="changeBtn" id="previousweaponBtn">&larr;</button>
                 <img src="Weapons/Alucard's_Sword_Icon.png" alt="" class="weaponImg">
-                <button class="nextweaponBtn">&rarr;</button>
+                <button class="changeBtn" id="nextweaponBtn">&rarr;</button>
             </div>
         </div>
         <div class="skin">
             <h2>SKIN:</h2>
             <div class="skin-content">
-                <button class="previousskinBtn">&larr;</button>
-                <img src="Skins/Alucard_Outfit.png" alt="" class="skinImg">
-                <button class="nextskinBtn">&rarr;</button>
+                <button class="changeBtn" id="previousskinBtn">&larr;</button>
+                <img src="Skins/Alucard_Outfit-removebg-preview.png" alt="" class="skinImg">
+                <button class="changeBtn" id="nextskinBtn">&rarr;</button>
             </div>
         </div>
         <div class="auxweapon">
             <h2>ESCUDO/ARCO:</h2>
             <div class="auxweapon-content">
-                <button class="previousauxweaponBtn">&larr;</button>
+                <button class="changeBtn" id="previousauxweaponBtn">&larr;</button>
                 <img src="Auxweapons/Force_Shield_Icon.png" alt="" class="auxweaponImg">
-                <button class="nextauxweaponBtn">&rarr;</button>
+                <button class="changeBtn" id="nextauxweaponBtn">&rarr;</button>
             </div>
         </div>
     </main>
-    <button class="playBtn">JOGAR</button>
+    <div class="play-area">
+        <button class="playBtn">JOGAR</button>
+    </div>
     <footer>
-        Copyright © Leonardo NS 2025
+        <p>Copyright © Leonardo NS 2025</p>
+        <p>(Baseado no jogo Dead Cells)</p>
     </footer>
     
     <script src="script.js"></script>
